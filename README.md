@@ -3,7 +3,7 @@
 * This project aims to build a Retrieval Augmented Generation (RAG)-based chatbot using the Gemini API and LangChain library.
 * Throughout the project, documents are used to retrieve information and deliver a natural conversation experience.
 
-<img width="477" alt="Basic_RAG Application with Gemini" src="https://github.com/user-attachments/assets/1bfebe83-1da1-437a-a5db-32b67e03aefd" />
+   <img width="477" alt="Basic_RAG Application with Gemini" src="https://github.com/user-attachments/assets/1bfebe83-1da1-437a-a5db-32b67e03aefd" />
 
 
 🚀 **Features**
