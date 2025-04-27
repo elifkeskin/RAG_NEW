@@ -19,6 +19,7 @@ Follow the steps below to run the project:
 
 **Clone the repository:**
 git clone https://github.com/elifkeskin/RAG_NEW
+
 cd RAG
 
 **Install the required packages:**
@@ -26,6 +27,7 @@ pip install -r requirements.txt
 
 **Set up environment variables:**
 Create a .env file and add your API keys:
+
 GEMINI_API_KEY="your_gemini_api_key"
 
 **Run the Streamlit app:**
