@@ -37,9 +37,13 @@ streamlit run app.py
 
 
 ├── app.py               # Streamlit interface
+
 ├── rag_chain.py         # RAG chain setup
+
 ├── ingestion.py         # Data ingestion and vector database creation
+
 ├── requirements.txt     # Required Python packages
+
 └── README.md            # This file
 
 
