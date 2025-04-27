@@ -43,6 +43,7 @@ streamlit run app.py
 └── README.md            # This file
 
 
+
 📚 **Technologies Used**
 
 * Google Gemini API
