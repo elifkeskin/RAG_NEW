@@ -18,9 +18,9 @@
 Follow the steps below to run the project:
 
 **Clone the repository:**
-git clone https://github.com/elifkeskin/RAG_NEW
+git clone https://github.com/elifkeskin/RAG_NEW.git
 
-cd RAG
+cd RAG_NEW
 
 **Install the required packages:**
 pip install -r requirements.txt
