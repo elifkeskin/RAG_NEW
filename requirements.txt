@@ -9,4 +9,4 @@ langchain_chroma
 langchainhub
 pypdf
 rapidocr-onnxruntime
-pillow == 10.4.0
+
