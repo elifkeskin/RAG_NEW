@@ -1,8 +1,8 @@
 langchain
 langchain_community
-langchain-google-genai == 0.5.3
-python-dotenv == 1.0.1
-streamlit == 1.36.0
+langchain-google-genai 
+python-dotenv 
+streamlit 
 langchain_experimental
 sentence-transformers
 langchain_chroma
