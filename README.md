@@ -42,9 +42,13 @@ Follow these steps to set up and run the project:
 
 
 ├── app.py # Streamlit web interface
+
 ├── .env # Environment variables (API keys, etc.)
+
 ├── GEMINI_RAG.ipynb # Jupyter notebook for RAG chain setup and experimentation
+
 ├── requirements.txt # Python dependencies
+
 └── README.md # Project documentation
 
 
