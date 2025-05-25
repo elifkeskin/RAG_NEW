@@ -1,66 +1,60 @@
 📚 **RAG-Based Chatbot with Gemini + LangChain**
 
-* This project aims to build a Retrieval Augmented Generation (RAG)-based chatbot using the Gemini API and LangChain library.
-* Throughout the project, documents are used to retrieve information and deliver a natural conversation experience.
+This project demonstrates how to build a Retrieval Augmented Generation (RAG) chatbot using the Google Gemini API and the LangChain framework. The chatbot leverages document retrieval to provide accurate, context-aware, and natural conversational experiences.
 
    <img width="477" alt="Basic_RAG Application with Gemini" src="https://github.com/user-attachments/assets/1bfebe83-1da1-437a-a5db-32b67e03aefd" />
 
 
 🚀 **Features**
-🌟 Google Gemini LLM API integration
-
-📚 Document vectorization and search with ChromaDB
-
-🧠 Smart document querying with LangChain
-
-🖥️ Web interface built with Streamlit
-
-⚡ Fast and real-time chat experience
+- **Google Gemini LLM API Integration:** Harnesses the power of Gemini for advanced language understanding and generation.
+- **Document Vectorization & Search with ChromaDB:** Efficiently indexes and retrieves relevant documents using vector embeddings.
+- **Intelligent Document Querying via LangChain:** Utilizes LangChain’s RAG pipeline for smart, context-driven responses.
+- **Interactive Web Interface with Streamlit:** User-friendly, real-time chat experience in your browser.
+- **Fast & Scalable:** Designed for responsive, real-time interactions.
 
 🛠️ **Installation**
-Follow the steps below to run the project:
+Follow these steps to set up and run the project:
 
-**Clone the repository:**
+1. **Clone the Repository**
+    ```bash
+    git clone https://github.com/elifkeskin/RAG_NEW.git
+    cd RAG_NEW
+    ```
 
-git clone https://github.com/elifkeskin/RAG_NEW.git
+2. **Install Required Packages**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-cd RAG_NEW
+3. **Set Up Environment Variables**
+    - Create a `.env` file in the project root directory.
+    - Add your Gemini API key:
+      ```
+      GEMINI_API_KEY="your_gemini_api_key"
+      ```
 
-**Install the required packages:**
-pip install -r requirements.txt
-
-**Set up environment variables:**
-Create a .env file and add your API keys:
-
-GEMINI_API_KEY="your_gemini_api_key"
-
-**Run the Streamlit app:**
-streamlit run app.py
+4. **Run the Streamlit App**
+    ```bash
+    streamlit run app.py
+    ```
 
 📄 **Project Structure**
 
 
-├── app.py               # Streamlit interface
-
-├── .env                 # Set up environment variables
-
-├── GEMINI_RAG.ipynb     # RAG chain setup
-
-├── requirements.txt     # Required Python packages
-
-└── README.md            # This file
+├── app.py # Streamlit web interface
+├── .env # Environment variables (API keys, etc.)
+├── GEMINI_RAG.ipynb # Jupyter notebook for RAG chain setup and experimentation
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation
 
 
 
 📚 **Technologies Used**
 
-* Google Gemini API
-
-* LangChain
-
-* ChromaDB
-
-* Streamlit
+- **Google Gemini API** – Large Language Model for text generation
+- **LangChain** – Framework for building RAG pipelines and LLM applications
+- **ChromaDB** – Local vector database for document storage and retrieval
+- **Streamlit** – Rapid web app development for interactive chat
 
 🎯 **Purpose**
 
